@@ -1,0 +1,79 @@
+2016-08-15 08:21:34,292 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-08-15 08:21:34,855 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-08-15 08:21:34,855 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-08-15 08:21:34,901 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-08-15 08:21:47,495 [1] DEBUG Topshelf.Runtime.Windows.WindowsHostEnvironment - Started by the Windows services process
+ Topshelf.Runtime.Windows.WindowsHostEnvironmentname2016-08-15 08:21:47,495 [1] DEBUG Topshelf.Builders.RunBuilder - Running as a service, creating service host.
+ Topshelf.Builders.RunBuildername2016-08-15 08:21:47,526 [1] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - Starting as a Windows service
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-08-15 08:21:47,667 [1] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting up as a windows service application
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-08-15 08:21:50,464 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-08-15 08:21:50,464 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Current Directory: f:\Debug
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-08-15 08:21:50,464 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Arguments: 
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-08-15 08:21:54,464 [17] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-08-15 08:21:54,464 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Started
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-08-15 08:30:22,361 [ServerScheduler_Worker-2] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 08:45:22,024 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 09:00:22,020 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 09:15:22,020 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 09:30:22,017 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 09:45:22,021 [ServerScheduler_Worker-9] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 10:00:22,067 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 10:15:22,041 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 10:30:22,015 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 10:45:22,021 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 11:00:22,023 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 11:15:22,021 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 11:30:22,020 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 11:45:22,020 [ServerScheduler_Worker-9] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 12:00:22,021 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 12:15:22,021 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 12:30:22,015 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 12:45:22,020 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 13:00:22,024 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 13:15:22,021 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 13:30:22,013 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 13:45:22,025 [ServerScheduler_Worker-9] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 14:00:22,022 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 14:15:22,023 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 14:30:22,016 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 14:45:22,024 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 15:00:22,022 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 15:15:22,031 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 15:30:22,017 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 15:45:22,029 [ServerScheduler_Worker-9] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 16:00:22,024 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 16:15:22,022 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 16:30:22,015 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 16:45:22,027 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 17:00:22,026 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 17:15:22,021 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 17:30:22,016 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 17:45:22,020 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 18:00:22,020 [ServerScheduler_Worker-2] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 18:15:22,021 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 18:30:22,021 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 18:45:22,019 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 19:00:22,034 [ServerScheduler_Worker-7] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 19:15:22,028 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 19:30:22,014 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 19:45:22,018 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 20:00:22,020 [ServerScheduler_Worker-2] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 20:15:22,020 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 20:30:22,014 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 20:45:22,018 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 21:00:22,018 [ServerScheduler_Worker-7] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 21:15:22,018 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 21:30:22,015 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 21:45:22,022 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 22:00:21,389 [ServerScheduler_Worker-2] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 22:15:22,020 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 22:30:22,014 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 22:45:22,018 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 23:00:22,018 [ServerScheduler_Worker-7] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 23:15:22,020 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 23:30:22,015 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-08-15 23:45:22,019 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename

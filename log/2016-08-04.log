@@ -1,0 +1,8 @@
+2016-08-04 08:19:08,047 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-08-04 08:19:08,532 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-08-04 08:19:08,532 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-08-04 08:19:08,563 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname

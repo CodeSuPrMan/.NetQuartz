@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <job>
+        <name>TimeIntervalStatistics15Minute</name>
+        <group>TimeIntervalStatistics</group>
+        <description>运行数据预统计</description>
+        <job-type>PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute, PMSoft.TimingSchedulerServer</job-type>
+        <durable>true</durable>
+        <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>15MiniuteStatistics</name>
+        <group>TimeIntervalStatistics</group>
+        <description>15分钟数据预统计</description>
+        <job-name>TimeIntervalStatistics15Minute</job-name>
+        <job-group>TimeIntervalStatistics</job-group>
+        <start-time>2016-07-25T17:30:12+08:00</start-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>900000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+  
+  <schedule>
+  <job>
+    <name>TimeIntervalStatistics1Hour</name>
+    <group>TimeIntervalStatistics</group>
+    <description>运行数据预统计</description>
+    <job-type>PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics1Hour, PMSoft.TimingSchedulerServer</job-type>
+    <durable>true</durable>
+    <recover>false</recover>
+  </job>
+  <trigger>
+    <simple>
+      <name>TimeIntervalStatistics1Hour</name>
+      <group>TimeIntervalStatistics</group>
+      <description>1小时数据预统计</description>
+      <job-name>TimeIntervalStatistics1Hour</job-name>
+      <job-group>TimeIntervalStatistics</job-group>
+      <start-time>2016-07-25T17:30:10+08:00</start-time>
+      <misfire-instruction>SmartPolicy</misfire-instruction>
+      <repeat-count>-1</repeat-count>
+      <repeat-interval>3600000</repeat-interval>
+    </simple>
+  </trigger>
+  </schedule>
+  
+  <schedule>
+    <job>
+      <name>TimeIntervalStatistics8Hour</name>
+      <group>TimeIntervalStatistics</group>
+      <description>运行数据预统计</description>
+      <job-type>PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics8Hour, PMSoft.TimingSchedulerServer</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>TimeIntervalStatistics8Hour</name>
+        <group>TimeIntervalStatistics</group>
+        <description>8小时数据预统计</description>
+        <job-name>TimeIntervalStatistics8Hour</job-name>
+        <job-group>TimeIntervalStatistics</job-group>
+        <start-time>2016-07-25T17:30:08+08:00</start-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>28800000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+
+  <schedule>
+    <job>
+      <name>TimeIntervalStatistics24Hour</name>
+      <group>TimeIntervalStatistics</group>
+      <description>运行数据预统计</description>
+      <job-type>PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics24Hour, PMSoft.TimingSchedulerServer</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>TimeIntervalStatistics24Hour</name>
+        <group>TimeIntervalStatistics</group>
+        <description>24小时数据预统计</description>
+        <job-name>TimeIntervalStatistics24Hour</job-name>
+        <job-group>TimeIntervalStatistics</job-group>
+        <start-time>2016-07-25T17:30:06+08:00</start-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>86400000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+
+  <schedule>
+    <job>
+      <name>TimeIntervalStatistics1Month</name>
+      <group>TimeIntervalStatistics</group>
+      <description>运行数据预统计</description>
+      <job-type>PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics1Month, PMSoft.TimingSchedulerServer</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>TimeIntervalStatistics1Month</name>
+        <group>TimeIntervalStatistics</group>
+        <description>月度数据预统计</description>
+        <job-name>TimeIntervalStatistics1Month</job-name>
+        <job-group>TimeIntervalStatistics</job-group>
+        <start-time>2016-07-25T17:30:04+08:00</start-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>1000000000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+
+  <schedule>
+    <job>
+      <name>TimeIntervalStatistics1Quarter</name>
+      <group>TimeIntervalStatistics</group>
+      <description>运行数据预统计</description>
+      <job-type>PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics1Quarter, PMSoft.TimingSchedulerServer</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>TimeIntervalStatistics1Quarter</name>
+        <group>TimeIntervalStatistics</group>
+        <description>季度数据预统计</description>
+        <job-name>TimeIntervalStatistics1Quarter</job-name>
+        <job-group>TimeIntervalStatistics</job-group>
+        <start-time>2016-07-25T17:30:02+08:00</start-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>1000000000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+
+  <schedule>
+    <job>
+      <name>TimeIntervalStatistics1Year</name>
+      <group>TimeIntervalStatistics</group>
+      <description>运行数据预统计</description>
+      <job-type>PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics1Year, PMSoft.TimingSchedulerServer</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <simple>
+        <name>TimeIntervalStatistics1Year</name>
+        <group>TimeIntervalStatistics</group>
+        <description>年度数据预统计</description>
+        <job-name>TimeIntervalStatistics1Year</job-name>
+        <job-group>TimeIntervalStatistics</job-group>
+        <start-time>2016-07-25T17:30:00+08:00</start-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>1000000000</repeat-interval>
+      </simple>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

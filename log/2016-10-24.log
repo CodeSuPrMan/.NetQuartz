@@ -1,0 +1,21 @@
+2016-10-24 08:30:52,967 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-10-24 08:30:52,967 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-10-24 08:30:52,967 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-10-24 08:30:53,060 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-10-24 08:31:01,046 [1] DEBUG Topshelf.Runtime.Windows.WindowsHostEnvironment - Started by the Windows services process
+ Topshelf.Runtime.Windows.WindowsHostEnvironmentname2016-10-24 08:31:01,046 [1] DEBUG Topshelf.Builders.RunBuilder - Running as a service, creating service host.
+ Topshelf.Builders.RunBuildername2016-10-24 08:31:01,061 [1] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - Starting as a Windows service
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-10-24 08:31:01,092 [1] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting up as a windows service application
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-10-24 08:31:01,124 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-10-24 08:31:01,124 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Current Directory: f:\Debug
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-10-24 08:31:01,124 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Arguments: 
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-10-24 08:31:02,561 [17] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-10-24 08:31:02,561 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Started
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-10-24 08:45:22,996 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-10-24 09:00:22,021 [ServerScheduler_Worker-2] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-10-24 09:15:22,021 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-10-24 09:30:22,013 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AQI>
+  <!--IAQI类型，PM10参数-->
+  <IAQI type="PMTen">
+    <!--C小,C大,I小,I大-->
+    <params BPl="0" BPh="0.05" IAQIl="0" IAQIh="50"></params>
+    <params BPl="0.05" BPh="0.15" IAQIl="50" IAQIh="100"></params>     
+    <params BPl="0.15" BPh="0.25" IAQIl="100" IAQIh="150"></params>  
+    <params BPl="0.25" BPh="0.35" IAQIl="150" IAQIh="200"></params>  
+    <params BPl="0.35" BPh="0.42" IAQIl="200" IAQIh="300"></params> 
+    <params BPl="0.42" BPh="0.5" IAQIl="300" IAQIh="400"></params>  
+    <params BPl="0.5" BPh="0.6" IAQIl="400" IAQIh="500"></params>  
+  </IAQI>
+  <!--IAQI类型，PM2.5参数-->
+  <IAQI type="PMTwoPointFive">
+    <!--C小,C大,I小,I大-->
+    <params BPl="0" BPh="0.035" IAQIl="0" IAQIh="50"></params>
+    <params BPl="0.04" BPh="0.075" IAQIl="50" IAQIh="100"></params>
+    <params BPl="0.08" BPh="0.115" IAQIl="100" IAQIh="150"></params>
+    <params BPl="0.12" BPh="0.15" IAQIl="150" IAQIh="200"></params>
+    <params BPl="0.15" BPh="0.25" IAQIl="200" IAQIh="300"></params>
+    <params BPl="0.25" BPh="0.35" IAQIl="300" IAQIh="400"></params>
+    <params BPl="0.35" BPh="0.5" IAQIl="400" IAQIh="500"></params>
+  </IAQI>
+</AQI>

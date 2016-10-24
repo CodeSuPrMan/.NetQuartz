@@ -1,0 +1,113 @@
+2016-07-25 14:00:03,626 [10] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 14:00:03,636 [10] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 14:00:03,640 [10] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 14:00:03,640 [10] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 14:00:03,857 [10] DEBUG Topshelf.Builders.RunBuilder - Running as a console application, creating the console host.
+ Topshelf.Builders.RunBuildername2016-07-25 14:00:03,859 [10] DEBUG Topshelf.Hosts.ConsoleRunHost - Starting up as a console application
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 14:00:04,109 [10] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 14:00:04,110 [10] INFO  Topshelf.Hosts.ConsoleRunHost - The PMSoftTimingSchedulerServer service is now running, press Control+C to exit.
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:00:11,825 [8] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 15:00:11,835 [8] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 15:00:11,838 [8] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 15:00:11,838 [8] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 15:00:11,997 [8] DEBUG Topshelf.Builders.RunBuilder - Running as a console application, creating the console host.
+ Topshelf.Builders.RunBuildername2016-07-25 15:00:11,999 [8] DEBUG Topshelf.Hosts.ConsoleRunHost - Starting up as a console application
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:00:12,197 [8] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 15:00:12,197 [8] INFO  Topshelf.Hosts.ConsoleRunHost - The PMSoftTimingSchedulerServer service is now running, press Control+C to exit.
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:01:03,151 [24] INFO  Topshelf.Hosts.ConsoleRunHost - Control+C detected, attempting to stop service.
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:01:03,534 [24] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler shutdown complete
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 15:01:03,535 [8] INFO  Topshelf.Hosts.ConsoleRunHost - The PMSoftTimingSchedulerServer service has stopped.
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:14:28,822 [9] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 15:14:28,832 [9] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 15:14:28,836 [9] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 15:14:28,836 [9] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 15:14:28,969 [9] DEBUG Topshelf.Builders.RunBuilder - Running as a console application, creating the console host.
+ Topshelf.Builders.RunBuildername2016-07-25 15:14:28,972 [9] DEBUG Topshelf.Hosts.ConsoleRunHost - Starting up as a console application
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:14:29,171 [9] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 15:14:29,171 [9] INFO  Topshelf.Hosts.ConsoleRunHost - The PMSoftTimingSchedulerServer service is now running, press Control+C to exit.
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:30:16,699 [9] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 15:30:16,709 [9] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 15:30:16,711 [9] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 15:30:16,712 [9] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 15:30:16,930 [9] DEBUG Topshelf.Builders.RunBuilder - Running as a console application, creating the console host.
+ Topshelf.Builders.RunBuildername2016-07-25 15:30:16,933 [9] DEBUG Topshelf.Hosts.ConsoleRunHost - Starting up as a console application
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 15:30:17,149 [9] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 15:30:17,150 [9] INFO  Topshelf.Hosts.ConsoleRunHost - The PMSoftTimingSchedulerServer service is now running, press Control+C to exit.
+ Topshelf.Hosts.ConsoleRunHostname2016-07-25 17:11:44,369 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 17:11:44,383 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 17:11:44,390 [1] DEBUG Topshelf.Hosts.InstallHost - Attempting to install 'PMSoftTimingSchedulerServer'
+ Topshelf.Hosts.InstallHostname2016-07-25 17:11:44,428 [1] INFO  Topshelf.Runtime.Windows.HostInstaller - Installing PMSoftTimingSchedulerServer service
+ Topshelf.Runtime.Windows.HostInstallername2016-07-25 17:11:44,529 [1] DEBUG Topshelf.Runtime.Windows.HostInstaller - Opening Registry
+ Topshelf.Runtime.Windows.HostInstallername2016-07-25 17:11:44,529 [1] DEBUG Topshelf.Runtime.Windows.HostInstaller - Service path: "f:\Debug\PMSoft.TimingSchedulerServer.exe"
+ Topshelf.Runtime.Windows.HostInstallername2016-07-25 17:11:44,529 [1] DEBUG Topshelf.Runtime.Windows.HostInstaller - Image path: "f:\Debug\PMSoft.TimingSchedulerServer.exe"  -displayname "PMSoftTimingSchedulerServer" -servicename "PMSoftTimingSchedulerServer"
+ Topshelf.Runtime.Windows.HostInstallername2016-07-25 17:11:47,107 [1] DEBUG Topshelf.Runtime.Windows.HostInstaller - Closing Registry
+ Topshelf.Runtime.Windows.HostInstallername2016-07-25 17:12:15,268 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 17:12:15,278 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 17:12:15,281 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 17:12:15,281 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 17:12:15,393 [1] DEBUG Topshelf.Runtime.Windows.WindowsHostEnvironment - Started by the Windows services process
+ Topshelf.Runtime.Windows.WindowsHostEnvironmentname2016-07-25 17:12:15,393 [1] DEBUG Topshelf.Builders.RunBuilder - Running as a service, creating service host.
+ Topshelf.Builders.RunBuildername2016-07-25 17:12:15,394 [1] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - Starting as a Windows service
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:12:15,396 [1] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting up as a windows service application
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:12:15,397 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:12:15,398 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Current Directory: f:\Debug
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:12:15,398 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Arguments: 
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:12:15,588 [17] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 17:12:15,588 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Started
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:12:17,813 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Stopping
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:12:17,835 [17] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler shutdown complete
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 17:12:17,835 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Stopped
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:17:32,112 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 17:17:32,122 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 17:17:32,125 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 17:17:32,125 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 17:17:32,206 [1] DEBUG Topshelf.Runtime.Windows.WindowsHostEnvironment - Started by the Windows services process
+ Topshelf.Runtime.Windows.WindowsHostEnvironmentname2016-07-25 17:17:32,206 [1] DEBUG Topshelf.Builders.RunBuilder - Running as a service, creating service host.
+ Topshelf.Builders.RunBuildername2016-07-25 17:17:32,207 [1] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - Starting as a Windows service
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:17:32,208 [1] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting up as a windows service application
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:17:32,209 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:17:32,210 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Current Directory: f:\Debug
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:17:32,210 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Arguments: 
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:17:32,387 [17] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 17:17:32,387 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Started
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:18:12,932 [18] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Stopping
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:18:13,212 [18] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler shutdown complete
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 17:18:13,212 [18] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Stopped
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:20:17,364 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-07-25 17:20:17,374 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-07-25 17:20:17,377 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 17:20:17,377 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-07-25 17:20:17,460 [1] DEBUG Topshelf.Runtime.Windows.WindowsHostEnvironment - Started by the Windows services process
+ Topshelf.Runtime.Windows.WindowsHostEnvironmentname2016-07-25 17:20:17,461 [1] DEBUG Topshelf.Builders.RunBuilder - Running as a service, creating service host.
+ Topshelf.Builders.RunBuildername2016-07-25 17:20:17,462 [1] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - Starting as a Windows service
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:20:17,463 [1] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting up as a windows service application
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:20:17,464 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:20:17,465 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Current Directory: f:\Debug
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:20:17,465 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Arguments: 
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-07-25 17:20:17,637 [17] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-07-25 17:20:17,637 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Started
+ Topshelf.Runtime.Windows.WindowsServiceHostname

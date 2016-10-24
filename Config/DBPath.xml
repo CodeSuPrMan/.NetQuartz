@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConnectionStrings>
+  <!--默认配置，请按照说明修改-->
+  <DefaultSetting>
+    <!--版本-->
+    <Version>
+    </Version>
+    <!--默认数据库连接串(不指定数据库)-->
+    <ConnectionString DataSource="192.168.3.61" PersistSecurityInfo="True" UserID="pmuser" Password="pm123!@#" />
+    <!--DataType(数据类型,无该属性会触发异常)：10扬尘运行数据；
+        SaveType(存储类型,无该属性会触发异常)：0按月分表，库格式为Monitor_{DBKey}，表格式为Monitor_{DBKey}_{Year}{Month}；
+                                               1按日分表，按月分库，库格式为Monitor_{DBKey}_{Year}{Month}，表格式为Monitor_{DBKey}_{Year}{Month}{Day}；
+                                               其中{Year}表示年份，占4位；{Month}表示月份，占两位(如12,02)；0表示日期，占两位
+    -->
+    <Datas>
+      <!--内容为表创建sql，可按照语法修改表结构-->
+      <Data DataType="30" DBKey="DustRunData" Text="扬尘运行数据" SaveType="1">
+        CREATE TABLE [dbo].[{TableName}](
+        [id_device] [int] NULL,
+        [dtime] [datetime] NULL,
+        [insertTime] [datetime] NULL CONSTRAINT [DF_{TableName}_insertTime]  DEFAULT (getdate()),
+        [tsp] [float] NULL CONSTRAINT [DF_{TableName}_tsp]  DEFAULT ((0)),
+        [pmten] [float] NULL CONSTRAINT [DF_{TableName}_pmten]  DEFAULT ((0)),
+        [pmtwopointfive] [float] NULL CONSTRAINT [DF_{TableName}_pmtwopointfive]  DEFAULT ((0)),
+        [noise] [float] NULL CONSTRAINT [DF_{TableName}_noise]  DEFAULT ((0)),
+        [temperature] [float] NULL CONSTRAINT [DF_{TableName}_temperature]  DEFAULT ((0)),
+        [humidity] [float] NULL CONSTRAINT [DF_{TableName}_humidity]  DEFAULT ((0)),
+        [windspeed] [float] NULL CONSTRAINT [DF_{TableName}_windspeed]  DEFAULT ((0)),
+        [atmospheric] [float] NULL CONSTRAINT [DF_{TableName}_atmospheric]  DEFAULT ((0)),
+        [winddirection] [nvarchar(20)] NULL,
+        [airquality] [nvarchar(10)] NULL,     
+        )
+
+        CREATE NONCLUSTERED INDEX [IX_{TableName}_dtime] ON [dbo].[{TableName}]
+        (
+        [dtime] DESC
+        )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF,
+        IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON,
+        ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+
+        CREATE NONCLUSTERED INDEX [IX_{TableName}_DeviceId] ON [dbo].[{TableName}]
+        (
+        [id_device] ASC
+        )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF,
+        IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON,
+        ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+
+      </Data>
+    </Datas>
+  </DefaultSetting>
+</ConnectionStrings>

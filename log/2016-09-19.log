@@ -1,0 +1,45 @@
+2016-09-19 08:29:44,726 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name PMSoftTimingSchedulerServer
+[Success] Description 定时调度任务服务
+[Success] ServiceName PMSoftTimingSchedulerServer
+ Topshelf.HostFactoryname2016-09-19 08:29:44,757 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v3.2.150.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2016-09-19 08:29:44,757 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Creating new instance of server type 'PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer, PMSoft.TimingSchedulerServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-09-19 08:29:44,757 [1] DEBUG PMSoft.TimingSchedulerServer.QuartzServerFactory - Instance successfully created
+ PMSoft.TimingSchedulerServer.QuartzServerFactoryname2016-09-19 08:29:45,601 [1] DEBUG Topshelf.Runtime.Windows.WindowsHostEnvironment - Started by the Windows services process
+ Topshelf.Runtime.Windows.WindowsHostEnvironmentname2016-09-19 08:29:45,601 [1] DEBUG Topshelf.Builders.RunBuilder - Running as a service, creating service host.
+ Topshelf.Builders.RunBuildername2016-09-19 08:29:45,616 [1] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - Starting as a Windows service
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-09-19 08:29:45,616 [1] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting up as a windows service application
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-09-19 08:29:46,288 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Starting
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-09-19 08:29:46,288 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Current Directory: f:\Debug
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-09-19 08:29:46,288 [17] DEBUG Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Arguments: 
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-09-19 08:29:55,812 [17] INFO  PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServer - Scheduler started successfully
+ PMSoft.TimingSchedulerServer.PMSoftTimingSchedulerServername2016-09-19 08:29:55,812 [17] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Started
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-09-19 08:30:31,344 [ServerScheduler_Worker-2] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 08:45:22,029 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 09:00:22,019 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 09:15:22,029 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 09:30:22,013 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 09:45:22,019 [ServerScheduler_Worker-9] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 10:00:22,018 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 10:15:22,019 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 10:30:22,014 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 10:45:22,018 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 11:00:22,027 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 11:15:22,043 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 11:30:22,012 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 11:45:22,029 [ServerScheduler_Worker-9] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 12:00:22,260 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 12:15:22,024 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 12:30:22,036 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 12:45:22,048 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 13:00:22,018 [ServerScheduler_Worker-5] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 13:15:22,018 [ServerScheduler_Worker-6] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 13:30:22,013 [ServerScheduler_Worker-8] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 13:45:22,018 [ServerScheduler_Worker-9] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 14:00:22,019 [ServerScheduler_Worker-10] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 14:15:22,019 [ServerScheduler_Worker-1] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 14:30:22,043 [ServerScheduler_Worker-3] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 14:45:22,042 [ServerScheduler_Worker-4] ERROR PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minute - 15分组统计发生错误发生一个或多个错误。
+ PMSoft.TimingSchedulerServer.Job.TimeIntervalStatistics15Minutename2016-09-19 14:45:38,986 [23] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Service is being shutdown
+ Topshelf.Runtime.Windows.WindowsServiceHostname2016-09-19 14:45:39,095 [23] INFO  Topshelf.Runtime.Windows.WindowsServiceHost - [Topshelf] Stopped
+ Topshelf.Runtime.Windows.WindowsServiceHostname
